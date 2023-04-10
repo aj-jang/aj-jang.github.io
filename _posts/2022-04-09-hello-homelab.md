@@ -41,4 +41,4 @@ sudo apt update && sudo apt upgrade
 
 
 ## photos
-![img-title](../imgs/ajj_profile1.jpg)
+![img-title](ajj_profile1.jpg)
