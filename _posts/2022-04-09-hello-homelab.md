@@ -1,6 +1,6 @@
 ---
 title: Text and Typography
-author: cotes
+author: Alice Jayoung Jang
 date: 2022-04-09 11:33:00 +0800
 categories: [Blogging, Demo]
 tags: [typography]
@@ -41,4 +41,4 @@ sudo apt update && sudo apt upgrade
 
 
 ## photos
-![img-description](../_site/imgs/image_a80c747a.jpeg)
+![img-description](../imgs/image_a80c747a.jpeg)
