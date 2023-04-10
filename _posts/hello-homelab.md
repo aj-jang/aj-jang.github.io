@@ -38,4 +38,4 @@ sudo apt update && sudo apt upgrade
 
 
 ## photos
-![img-description](/imgs/image_a80c747a.jpeg)
+![img-description](/_site/imgs/image_a80c747a.jpeg)
