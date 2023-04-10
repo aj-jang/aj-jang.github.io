@@ -1,6 +1,6 @@
 ---
-title: "Hello HomeLab"
-date: "2023-04-09 "
+title: Hello HomeLab
+date: 2023-04-09
 categories: [introduction]
 tags: 
 ---
