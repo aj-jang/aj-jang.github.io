@@ -1,7 +1,6 @@
 ---
 layout: page
-icon: fas fa-archive
-order: 5
+order: 2
 ---
 
 Hi Ag
