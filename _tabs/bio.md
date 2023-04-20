@@ -14,6 +14,6 @@ The Life of AJ Jang covered the entirety of its subject’s life, from his birth
 [comment]: <> (A button to download CV. Source could be replaced with any other file)
 
 
-<a href="../imgs/ajj_profile1.jpg" class="btn btn-primary" role="button" download>
+<a href="../imgs/image_a80c747a.jpeg" class="btn btn-primary" role="button" download>
     Download CV
 </a>
