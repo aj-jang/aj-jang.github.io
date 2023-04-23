@@ -184,187 +184,25 @@
 </div>
 
 
-    <div id="main-wrapper" class="d-flex justify-content-center">
-      <div id="main" class="container pl-xl-4 pr-xl-4">
-        
-
-
-
-
-
-<div class="row">
-
-  <!-- core -->
-  <div id="core-wrapper" class="col-12 col-lg-11 col-xl-9 pr-xl-4">
-    <div class="post pl-1 pr-1 pl-md-2 pr-md-2">
-
-    
-
-    
-      
-      
-      <h1 class="dynamic-title">
-        Bio
-      </h1>
-      <div class="post-content">
-        
-      
-        <!--
-  Refactor the HTML structure.
--->
-
-
-
-<!--
-  In order to allow a wide table to scroll horizontally,
-  we suround the markdown table with `<div class="table-wrapper">` and `</div>`
--->
-
-
-
-<!--
-  Fixed kramdown code highlight rendering:
-  https://github.com/penibelst/jekyll-compress-html/issues/101
-  https://github.com/penibelst/jekyll-compress-html/issues/71#issuecomment-188144901
--->
-
-
-
-<!-- Change the icon of checkbox -->
-
-
-<!-- images -->
-
-
-
-
-
-<!-- Add header for code snippets -->
-
-
-
-<!-- Create heading anchors -->
-
-
-
-
-
-  
-  
-
-  
-
-  
-  
-
-  
-
-  
-  
-
-  
-
-  
-  
-
-  
-
-
-
-
-<!-- return -->
-
-
-
-<p>The Life of AJ Jang covered the entirety of its subject’s life, from his birth to his status as England’s preeminent writer to his death. AJ Jang was a personal acquaintance of Johnson, so he was able to draw on voluminous amounts of personal conversations the two shared</p>
-
-<p><a href="../assets/cv/AliceJJ_CV2023_v22.pdf" class="btn btn-info" role="button" download="">
-    Download CV
-</a></p>
-
-
-      
-    
-      </div>
-    
-
-    </div>
-  </div> <!-- #core-wrapper -->
-
-  <!-- panel -->
-  <div id="panel-wrapper" class="col-xl-3 pl-2 text-muted">
-
-    <div class="access">
-      
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <div id="access-lastmod" class="post">
-    <div class="panel-heading">Recently Updated</div>
-    <ul class="post-content pl-0 pb-1 ml-1 mt-2">
-      
-      
-    </ul>
-  </div> <!-- #access-lastmod -->
-
-
-
-      
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-    
-    
-    
-    
-      
-        
-        
-
-
-
-  <div id="access-tags">
-    <div class="panel-heading">Trending Tags</div>
-    <div class="d-flex flex-wrap mt-3 mb-1 mr-3">
-    </div>
-  </div>
-
-
-    </div>
-
-    
-  </div>
-
-</div>
-
-<!-- tail -->
-
-
+<!-- Main Content Starts -->
+<div id="main-wrapper" class="d-flex justify-content-center">
+  <div id="main" class="container pl-xl-4 pr-xl-4">  
+    <div class="row">
+      <div id="core-wrapper" class="col-12 col-lg-11 col-xl-9 pr-xl-4">
+        <div class="post pl-1 pr-1 pl-md-2 pr-md-2">
+          <!-- Title -->
+          <h1 class="dynamic-title">
+            Bio
+          </h1>
+          <div class="post-content">
+              <!-- Bio Paragraph -->
+            <p>Hi!</p>
+            <p>The Life of AJ Jang covered the entirety of its subject’s life, from his birth to his status as England’s preeminent writer to his death. AJ Jang was a personal acquaintance of Johnson, so he was able to draw on voluminous amounts of personal conversations the two shared</p>
+            
+            <!-- Download CV Button -->
+            <button  class="btn btn-primary" onclick="download()">Download CV</button>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -437,13 +275,13 @@
   // Function to Download CV 
   async function download() {
     let results = await axios({
-      url: '../imgs/ajj_profile1.jpg',
+      url: '../assets/cv/AliceJJ_CV2023_v22.pdf',
       method: 'GET',
       responseType: 'blob'
     })
     let hidden_a = document.createElement('a');
     hidden_a.href = window.URL.createObjectURL(new Blob([results.data]));
-    hidden_a.setAttribute('download', 'download_image.jpg');
+    hidden_a.setAttribute('download', 'CV.pdf');
     document.body.appendChild(hidden_a);
     hidden_a.click();
     document.body.removeChild(hidden_a);
