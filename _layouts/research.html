@@ -14,6 +14,20 @@
   <!-- The Head -->
 
 <head>
+  <style>
+    .button-tag{
+      border-radius: 0.7em;
+      padding: 0px 7px 0px;
+      margin-right: 0.8rem;
+      line-height: 2.5rem;
+      background: transparent;
+      cursor: pointer;
+      letter-spacing: 0;
+      border: 1px solid var(--tag-border) !important;
+      box-shadow: 0 0 3px 0 var(--tag-shadow);
+      color: var(--link-color);
+    }
+  </style>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta name="theme-color" media="(prefers-color-scheme: light)" content="#f7f7f7">
   <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#1b1b1e">
@@ -224,9 +238,9 @@
                       
                       <!-- Tag Starts -->
                       <p>
-                        <a class="tag" href="/tags/information-diffusion">
+                        <button class="button-tag" onClick="parent.location='/tags/information-diffusion'" >
                           Information Diffusion
-                        </a>
+                        </button>
                       </p> 
                       <!-- Tag Ends -->
 
@@ -247,10 +261,10 @@
 
                       <!-- Tag Starts -->
                       <p>
-                        <a class="tag" href="/tags/temp-tag">
+                        <button class="button-tag" onClick="parent.location='/tags/temp-tag'" >
                           Temp Tag
-                        </a>
-                      </p>  
+                        </button>
+                      </p> 
                       <!-- Tag Ends -->
 
                         <!-- Progress Bar Starts --> 

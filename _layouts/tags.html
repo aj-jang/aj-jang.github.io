@@ -45,9 +45,9 @@ layout: page
   {% for post in posts %}
     {% if post.categories[0] == "Research" %}
       <div>
-        <a class="tag" href="{{ post.tags[0] | slugify | url_encode | prepend: '/tags/' | append: '/' | relative_url }}">
-          {{ post.tags }}
-        </a>
+        <button class="button-tag" onClick="parent.location='{{ post.tags[0] | slugify | url_encode | prepend: '/tags/' | append: '/' | relative_url }}'">
+          {{ post.tags }} 
+        </button>
       </div>
     {% endif %}
   {% endfor %}
@@ -65,9 +65,9 @@ layout: page
   {% for post in posts %}
     {% if post.categories[0] == "Teaching" %}
       <div>
-        <a class="tag" href="{{ post.tags[0] | slugify | url_encode | prepend: '/tags/' | append: '/' | relative_url }}">
-          {{ post.tags }}
-        </a>
+        <button class="tag" onClick="parent.location='{{ post.tags[0] | slugify | url_encode | prepend: '/tags/' | append: '/' | relative_url }}'">
+          {{ post.tags }} 
+        </button>
       </div>
     {% endif %}
   {% endfor %}
