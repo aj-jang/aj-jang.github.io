@@ -36,35 +36,12 @@ layout: page
     {% assign posts = posts | push: default[i] %}
   {% endfor %}
 {% endif %}
-<h2>Teaching</h2>
-<div id="tags" class="d-flex flex-wrap ml-xl-2 mr-xl-2">
 
-  <!-- {% assign tags = "" | split: "" %}
-  {% for t in site.tags %}
-    {% assign tags = tags | push: t[0] %}
-  {% endfor %}
-
-  {% assign sorted_tags = tags | sort_natural %} -->
-
-  {% for post in posts %}
-    {% if post.categories[0] == "Teaching" %}
-      <div>
-        <a class="tag" href="{{ post.tags[0] | slugify | url_encode | prepend: '/tags/' | append: '/' | relative_url }}">
-          {{ post.tags }}
-        </a>
-      </div>
-    {% endif %}
-  {% endfor %}
-</div>
+<!-- Research Section Starts -->
 <h2>Research</h2>
 <div id="tags" class="d-flex flex-wrap ml-xl-2 mr-xl-2">
-
-  <!-- {% assign tags = "" | split: "" %}
-  {% for t in site.tags %}
-    {% assign tags = tags | push: t[0] %}
-  {% endfor %}
-
-  {% assign sorted_tags = tags | sort_natural %} -->
+  
+  <!-- Tags List Starts -->
   {% for post in posts %}
     {% if post.categories[0] == "Research" %}
       <div>
@@ -74,5 +51,27 @@ layout: page
       </div>
     {% endif %}
   {% endfor %}
+  <!-- Tags List Ends -->
 
 </div>
+<!-- Research Section Ends -->
+
+
+<!-- Teaching Section Starts -->
+<h2>Teaching</h2>
+<div id="tags" class="d-flex flex-wrap ml-xl-2 mr-xl-2">
+
+  <!-- Tags List Starts -->
+  {% for post in posts %}
+    {% if post.categories[0] == "Teaching" %}
+      <div>
+        <a class="tag" href="{{ post.tags[0] | slugify | url_encode | prepend: '/tags/' | append: '/' | relative_url }}">
+          {{ post.tags }}
+        </a>
+      </div>
+    {% endif %}
+  {% endfor %}
+  <!-- Tags List Ends -->
+
+</div>
+<!-- Teaching Section Ends -->
