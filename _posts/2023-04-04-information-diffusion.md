@@ -1,6 +1,5 @@
 ---
 title: Information Diffusion
-author: cotes
 tags: [Information Diffusion]
 categories: [Research]
 ---
