@@ -36,6 +36,7 @@ layout: page
     {% assign posts = posts | push: default[i] %}
   {% endfor %}
 {% endif %}
+<h2>Teaching</h2>
 <div id="tags" class="d-flex flex-wrap ml-xl-2 mr-xl-2">
 
   <!-- {% assign tags = "" | split: "" %}
@@ -46,11 +47,32 @@ layout: page
   {% assign sorted_tags = tags | sort_natural %} -->
 
   {% for post in posts %}
-    <div>
-      <a class="tag" href="{{ post.tags[0] | slugify | url_encode | prepend: '/tags/' | append: '/' | relative_url }}">
-        {{ post.tags }}
-      </a>
-    </div>
+    {% if post.categories[0] == "Teaching" %}
+      <div>
+        <a class="tag" href="{{ post.tags[0] | slugify | url_encode | prepend: '/tags/' | append: '/' | relative_url }}">
+          {{ post.tags }}
+        </a>
+      </div>
+    {% endif %}
+  {% endfor %}
+</div>
+<h2>Research</h2>
+<div id="tags" class="d-flex flex-wrap ml-xl-2 mr-xl-2">
+
+  <!-- {% assign tags = "" | split: "" %}
+  {% for t in site.tags %}
+    {% assign tags = tags | push: t[0] %}
+  {% endfor %}
+
+  {% assign sorted_tags = tags | sort_natural %} -->
+  {% for post in posts %}
+    {% if post.categories[0] == "Research" %}
+      <div>
+        <a class="tag" href="{{ post.tags[0] | slugify | url_encode | prepend: '/tags/' | append: '/' | relative_url }}">
+          {{ post.tags }}
+        </a>
+      </div>
+    {% endif %}
   {% endfor %}
 
 </div>
