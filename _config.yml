@@ -17,9 +17,10 @@ timezone: America/New_York
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
+---
 layout: home
 title: Alice Jayoung Jang # the main title
-
+---
 tagline: Alice Jang's website # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
