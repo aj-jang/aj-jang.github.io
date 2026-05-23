@@ -166,6 +166,7 @@ exclude:
   - LICENSE
   - rollup.config.js
   - node_modules
+  - templates
   - package*.json
 
 jekyll-archives:
