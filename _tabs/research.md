@@ -12,11 +12,11 @@ analysis. Hover over (or tap) a theme below to see the related papers.
 <div class="rt-tabs">
 <button type="button" class="rt-tab is-on" data-i="0">
 <span class="rt-name">Human–AI Collaboration</span>
-<span class="rt-meta">6 papers</span>
+<span class="rt-meta">7 papers</span>
 </button>
 <button type="button" class="rt-tab" data-i="1">
 <span class="rt-name">Information Diffusion &amp; Exposure</span>
-<span class="rt-meta">3 papers</span>
+<span class="rt-meta">4 papers</span>
 </button>
 <button type="button" class="rt-tab" data-i="2">
 <span class="rt-name">Platform Governance &amp; Online Communities</span>
@@ -31,14 +31,14 @@ analysis. Hover over (or tap) a theme below to see the related papers.
 <p class="rt-ve">CHI.</p>
 </div>
 <div class="rt-paper">
-<p class="rt-ti">Unveiling the Impact of Generative AI on Language Learning: A Field Experiment <span class="rt-tag rt-wp">Working Paper</span></p>
+<p class="rt-ti">Unveiling the Impact of Generative AI on Language Learning: A Field Experiment <span class="rt-tag rt-rev">Under Review</span></p>
 <p class="rt-au">Gyeombi Cheon, Yumin Choi, <strong>Alice J. Jang</strong>, Dongwon Lee, and Jiye Baek</p>
-<p class="rt-ve">Ready to submit to Journal of the Association for Information Systems.</p>
+<p class="rt-ve">Under review at Information and Management.</p>
 </div>
 <div class="rt-paper">
 <p class="rt-ti">The Effect of Generative AI Use on Collaborative Problem Solving <span class="rt-tag rt-wp">Working Paper</span></p>
 <p class="rt-au"><strong>Alice J. Jang</strong>, Maschio Fernando, Idris Adjerid, and Jui Ramaprasad</p>
-<p class="rt-ve">Experiments ongoing; target journal: MIS Quarterly.</p>
+<p class="rt-ve">Experiments ongoing; target journal: Information Systems Research.</p>
 </div>
 <div class="rt-paper">
 <p class="rt-ti">Does Working with Generative AI Influence Human Creativity and Divergent Thinking? <span class="rt-tag rt-wp">Working Paper</span></p>
@@ -55,6 +55,11 @@ analysis. Hover over (or tap) a theme below to see the related papers.
 <p class="rt-au">Jason Deane, Maschio Fernando, Idris Adjerid, and <strong>Alice J. Jang</strong></p>
 <p class="rt-ve">Study design ongoing.</p>
 </div>
+<div class="rt-paper">
+<p class="rt-ti">AI Personalization versus Verification: Evidence from Itinerary Creation <span class="rt-tag rt-wp">Working Paper</span></p>
+<p class="rt-au"><strong>Alice J. Jang</strong>, Eojina Kim, Seonwoo Ko, and Maschio Fernando</p>
+<p class="rt-ve">Study design ongoing; target journal: Information Systems Research.</p>
+</div>
 </div>
 
 <div class="rt-panel" data-i="1">
@@ -64,27 +69,32 @@ analysis. Hover over (or tap) a theme below to see the related papers.
 <p class="rt-ve">Organization Science.</p>
 </div>
 <div class="rt-paper">
-<p class="rt-ti">Information Sharing on Social Media: Introducing the Role of Exposure Frequency and Its Emergent Effects <span class="rt-tag rt-pub">Forthcoming</span></p>
+<p class="rt-ti">Information Sharing on Social Media: Introducing the Role of Exposure Frequency and Its Emergent Effects <span class="rt-tag rt-pub">Published</span></p>
 <p class="rt-au"><strong>Alice J. Jang</strong> and Viswanath Venkatesh</p>
-<p class="rt-ve">MIS Quarterly (forthcoming).</p>
+<p class="rt-ve">MIS Quarterly.</p>
 </div>
 <div class="rt-paper">
-<p class="rt-ti">Exploring Emotional Contagion in Live Streaming Chatrooms Through Network Ties <span class="rt-tag rt-wp">Working Paper</span></p>
+<p class="rt-ti">The Effect of Emotion Amplification on Viewer Retention is Moderated by Preference Compartmentalization of the Group <span class="rt-tag rt-rev">Under Review</span></p>
 <p class="rt-au">Xuan Lu and <strong>Alice J. Jang</strong></p>
-<p class="rt-ve">Ready to submit to Proceedings of the National Academy of Sciences.</p>
+<p class="rt-ve">Under review at Proceedings of the National Academy of Sciences.</p>
+</div>
+<div class="rt-paper">
+<p class="rt-ti">Contents Spillover: How Contents with Latent Wants Instigate Popularity of Similar Contents <span class="rt-tag rt-wp">Working Paper</span></p>
+<p class="rt-au">Yunyoung Hur and <strong>Alice J. Jang</strong></p>
+<p class="rt-ve">Study design ongoing; target journal: TBD.</p>
 </div>
 </div>
 
 <div class="rt-panel" data-i="2">
 <div class="rt-paper">
-<p class="rt-ti">The Effect of Social Movements: Twitch Streamers Boycotting Against Hate Raid Get More Views <span class="rt-tag rt-rev">Under Review</span></p>
+<p class="rt-ti">The Effect of Social Movements: Twitch Streamers Boycotting Against Hate Raid Get More Views <span class="rt-tag rt-wp">Working Paper</span></p>
 <p class="rt-au"><strong>Alice J. Jang</strong> and Sumin Lim</p>
-<p class="rt-ve">Revise &amp; Resubmit at Information Systems Research.</p>
+<p class="rt-ve">Ready to submit to Management Science.</p>
 </div>
 <div class="rt-paper">
 <p class="rt-ti">Invisible Strings: How Dark Patterns Shape Privacy Choices <span class="rt-tag rt-wp">Working Paper</span></p>
 <p class="rt-au">Maschio Fernando, Idris Adjerid, and <strong>Alice J. Jang</strong></p>
-<p class="rt-ve">Experiments ongoing; target venue: CHI.</p>
+<p class="rt-ve">Experiments ongoing; target journal: CHI.</p>
 </div>
 <div class="rt-paper">
 <p class="rt-ti">Seamless or Disjoint? The Interrelationship Between Ride-Hailing and Bike-Sharing <span class="rt-tag rt-wp">Working Paper</span></p>

@@ -16,8 +16,7 @@ I draw on a mix of methods — lab experiments, field experiments, econometrics,
 and network analysis — to understand both how collective intelligence emerges
 and what causes it to fail.
 
-My work has appeared in *Organization Science*, is forthcoming at
-*MIS Quarterly*, and has been published at *CHI*.
+My work has appeared in *Organization Science*, *MIS Quarterly*, and *CHI*.
 
 Before joining Virginia Tech in 2022, I earned a Ph.D. in Information Systems
 from Boston University, an M.S. in Business and Technology Management from KAIST,
