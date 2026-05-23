@@ -26,7 +26,7 @@ and a B.A. in Business Administration from Sungkyunkwan University.
 Outside of research, I enjoy cooking and spending time with my two cats, Loki
 and Sylvie — named after characters from *Loki* on Disney+.
 
-[Download my CV (PDF)](/assets/cv/AliceJJ_CV2026_v1.pdf)
+[Download my CV (PDF)](/assets/cv/Alice-Jang-CV.pdf)
 
 ## Contact
 
